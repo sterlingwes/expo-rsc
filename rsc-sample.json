@@ -1,0 +1,11 @@
+1:{"name":"Greeting","env":"Server","key":null,"owner":null,"stack":[["","/Users/wesjohnson/Code/expo-rsc/server/dist/index.js",22,109]],"props":{}}
+0:D"$1"
+2:{"name":"View","env":"Server","key":null,"owner":"$1","stack":[["Greeting","/Users/wesjohnson/Code/expo-rsc/server/dist/Greeting.server.js",23,29]],"props":{"children":[["$","$E(function Text(_ref) {\n  var children = _ref.children;\n  return (function () {\n    return _react2['default'].createElement(\n      'p',\n      null,\n      children\n    );\n  })();\n})",null,{"children":"Hello from the server!"},"$1",[["Greeting","/Users/wesjohnson/Code/expo-rsc/server/dist/Greeting.server.js",26,24]],1],["$","$E(function Text(_ref) {\n  var children = _ref.children;\n  return (function () {\n    return _react2['default'].createElement(\n      'p',\n      null,\n      children\n    );\n  })();\n})",null,{"children":"This is a React Server Component."},"$1",[["Greeting","/Users/wesjohnson/Code/expo-rsc/server/dist/Greeting.server.js",31,24]],1]]}}
+0:D"$2"
+4:{"name":"Text","env":"Server","key":null,"owner":"$1","stack":[["Greeting","/Users/wesjohnson/Code/expo-rsc/server/dist/Greeting.server.js",26,24]],"props":{"children":"Hello from the server!"}}
+3:D"$4"
+3:["$","p",null,{"children":"Hello from the server!"},"$4",[["","/Users/wesjohnson/Code/expo-rsc/server/dist/components/Text.server.js",17,31],["Text","/Users/wesjohnson/Code/expo-rsc/server/dist/components/Text.server.js",22,5]],1]
+6:{"name":"Text","env":"Server","key":null,"owner":"$1","stack":[["Greeting","/Users/wesjohnson/Code/expo-rsc/server/dist/Greeting.server.js",31,24]],"props":{"children":"This is a React Server Component."}}
+5:D"$6"
+5:["$","p",null,{"children":"This is a React Server Component."},"$6",[["","/Users/wesjohnson/Code/expo-rsc/server/dist/components/Text.server.js",17,31],["Text","/Users/wesjohnson/Code/expo-rsc/server/dist/components/Text.server.js",22,5]],1]
+0:["$","div",null,{"children":["$3","$5"]},"$2",[["","/Users/wesjohnson/Code/expo-rsc/server/dist/components/View.server.js",17,31],["View","/Users/wesjohnson/Code/expo-rsc/server/dist/components/View.server.js",22,5]],1]
