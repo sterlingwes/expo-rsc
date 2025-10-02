@@ -2,7 +2,8 @@ import express from "express";
 import helmet from "helmet";
 import React, { Suspense } from "react";
 import { renderToPipeableStream } from "react-server-dom-webpack/server";
-import Greeting from "./Greeting.server.js";
+import Loading from "./Loading.js";
+import Greeting from "./Greeting.js";
 
 import moduleMapJson from "../../module-map.json";
 
@@ -25,7 +26,7 @@ app.get("/rsc", (req, res) => {
 
   const reactElement = React.createElement(
     Suspense,
-    { fallback: React.createElement("div", null, "Loading...") },
+    { fallback: React.createElement(Loading, null, "Loading...") },
     React.createElement(Greeting)
   );
 
