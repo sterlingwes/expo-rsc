@@ -1,6 +1,7 @@
 import React from "react";
-import View from "./components/View.server";
-import Text from "./components/Text.server";
+import { View, Text } from "react-native";
+// import View from "../../src/components/View.client";
+// import Text from "../../src/components/Text.client";
 
 export default function Greeting() {
   return (
